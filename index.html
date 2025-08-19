@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Pop AI Suite - Your Ultimate K-Pop AI Tools Collection</title>
+    <meta name="description" content="Discover 8 amazing AI tools for K-pop fans! Create outfits, chat with idols, generate names, and more. Free K-pop AI tools for every fan.">
+    <meta name="keywords" content="K-pop, AI tools, idol outfits, K-pop generator, bias chat, K-pop quiz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <h2>K-Pop AI Suite</h2>
+                    </div>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#tools" class="nav-link">Tools</a></li>
+                        <li><a href="#blog" class="nav-link">Blog</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="nav-toggle" id="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Your Ultimate K-Pop AI Experience</h1>
+                <p class="hero-description">Discover 8 amazing AI tools designed specifically for K-pop fans. Create outfits, chat with idols, generate names, and explore the world of K-pop like never before!</p>
+                <div class="hero-buttons">
+                    <button class="btn btn--primary" onclick="scrollToSection('tools')">Explore Tools</button>
+                    <button class="btn btn--outline" onclick="scrollToSection('blog')">Read Blog</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools" id="tools">
+        <div class="container">
+            <div class="section-header">
+                <h2>AI Tools Collection</h2>
+                <p>Choose from our amazing collection of K-pop AI tools</p>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card" data-tool="1">
+                    <div class="tool-icon">👗</div>
+                    <h3>Idol Outfit Style Creator</h3>
+                    <p>Analyze and create stunning K-pop idol outfits with AI-powered fashion recommendations.</p>
+                    <span class="tool-category">Fashion</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="2">
+                    <div class="tool-icon">💬</div>
+                    <h3>Bias Chat</h3>
+                    <p>Interactive AI chatbot that talks like your favorite K-pop idols and answers questions about K-pop culture.</p>
+                    <span class="tool-category">Chat</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="3">
+                    <div class="tool-icon">⭐</div>
+                    <h3>K-pop Name Generator</h3>
+                    <p>Generate creative stage names and group names perfect for the K-pop industry.</p>
+                    <span class="tool-category">Generator</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="4">
+                    <div class="tool-icon">💖</div>
+                    <h3>Idol Compatibility Quiz</h3>
+                    <p>Discover which K-pop idol you're most compatible with based on personality analysis.</p>
+                    <span class="tool-category">Quiz</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="5">
+                    <div class="tool-icon">🥰</div>
+                    <h3>Aegyo Caption Maker</h3>
+                    <p>Create adorable, aegyo-style captions for your social media posts with AI assistance.</p>
+                    <span class="tool-category">Social</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="6">
+                    <div class="tool-icon">📸</div>
+                    <h3>Idol Look-alike Finder</h3>
+                    <p>Upload your photo and discover which K-pop idols you resemble most using facial recognition.</p>
+                    <span class="tool-category">Photo</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="7">
+                    <div class="tool-icon">🎵</div>
+                    <h3>K-pop Playlist Maker</h3>
+                    <p>Get personalized K-pop playlists based on your mood, favorite groups, and music preferences.</p>
+                    <span class="tool-category">Music</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+                <div class="tool-card" data-tool="8">
+                    <div class="tool-icon">✨</div>
+                    <h3>Idol Nickname Creator</h3>
+                    <p>Generate cute and unique nicknames in the style of K-pop idol stage names.</p>
+                    <span class="tool-category">Generator</span>
+                    <button class="tool-btn">Try Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About K-Pop AI Suite</h2>
+                    <p>We're passionate K-pop fans who believe in the power of AI to enhance the fan experience. Our suite of 8 specialized tools brings together cutting-edge artificial intelligence with the vibrant world of K-pop culture.</p>
+                    <p>Whether you're looking to create the perfect idol outfit, chat with AI versions of your favorite stars, or discover your K-pop compatibility, we've got the tools to make your K-pop dreams come true.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">8</div>
+                            <div class="stat-label">AI Tools</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">10K+</div>
+                            <div class="stat-label">Happy Users</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Available</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest from our Blog</h2>
+                <p>Stay updated with the latest K-pop trends and insights</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-category">Fashion</div>
+                    <h3>2024 K-pop Fashion Trends: What Idols Are Wearing</h3>
+                    <p>Discover the hottest fashion trends dominating the K-pop scene this year, from stage outfits to street style.</p>
+                    <div class="blog-meta">
+                        <span class="blog-date">August 15, 2025</span>
+                        <button class="blog-read-more">Read More</button>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-category">Culture</div>
+                    <h3>The Psychology Behind Aegyo: Why We Love Cute Culture</h3>
+                    <p>Explore the cultural significance of aegyo in K-pop and its impact on global fan culture.</p>
+                    <div class="blog-meta">
+                        <span class="blog-date">August 12, 2025</span>
+                        <button class="blog-read-more">Read More</button>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-category">Technology</div>
+                    <h3>AI in K-pop: How Technology is Shaping the Industry</h3>
+                    <p>From virtual idols to AI-generated music, discover how artificial intelligence is revolutionizing K-pop.</p>
+                    <div class="blog-meta">
+                        <span class="blog-date">August 10, 2025</span>
+                        <button class="blog-read-more">Read More</button>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-category">Guide</div>
+                    <h3>Creating Your K-pop Stage Persona: A Complete Guide</h3>
+                    <p>Learn how to develop a unique stage persona that captures the essence of K-pop stardom.</p>
+                    <div class="blog-meta">
+                        <span class="blog-date">August 8, 2025</span>
+                        <button class="blog-read-more">Read More</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Stay Connected</h2>
+                    <p>Join our community of K-pop fans and get updates on new tools and features!</p>
+                </div>
+                <div class="newsletter">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="form-control" required>
+                        <button type="submit" class="btn btn--primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>K-Pop AI Suite</h3>
+                    <p>Your ultimate destination for K-pop AI tools and experiences.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li><a href="#tools">Outfit Creator</a></li>
+                        <li><a href="#tools">Bias Chat</a></li>
+                        <li><a href="#tools">Name Generator</a></li>
+                        <li><a href="#tools">Compatibility Quiz</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">TikTok</a>
+                        <a href="#" target="_blank">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 K-Pop AI Suite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tool Modal -->
+    <div class="modal hidden" id="tool-modal">
+        <div class="modal-overlay" id="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon" id="modal-icon">✨</div>
+                <h3 id="modal-title">Tool Name</h3>
+            </div>
+            <div class="modal-body">
+                <p id="modal-description">Tool description goes here.</p>
+                <div class="modal-demo">
+                    <h4>Try it out:</h4>
+                    <p id="modal-demo-text">Demo text goes here.</p>
+                    <div class="demo-interface" id="demo-interface">
+                        <input type="text" placeholder="Enter your input here..." class="form-control demo-input">
+                        <button class="btn btn--primary demo-btn">Generate</button>
+                        <div class="demo-result" id="demo-result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
